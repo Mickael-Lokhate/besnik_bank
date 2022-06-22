@@ -1,0 +1,35 @@
+{
+  "name": "besnik_bank",
+  "version": "1.0.0",
+  "description": "Fictional Training website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "start": "next start",
+    "build": "next build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Mickael-Lokhate/besnik_bank.git"
+  },
+  "keywords": [
+    "bank",
+    "training",
+    "next"
+  ],
+  "author": "Mickael Lokhate",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mickael-Lokhate/besnik_bank/issues"
+  },
+  "homepage": "https://github.com/Mickael-Lokhate/besnik_bank#readme",
+  "dependencies": {
+    "next": "^12.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "sass": "^1.52.3"
+  }
+}
