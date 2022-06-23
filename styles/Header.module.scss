@@ -26,7 +26,7 @@ $angle: 360 / $circleCharNum;
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
-    letter-spacing: 1%;
+    letter-spacing: 0.01em;
   }
 }
 
@@ -207,5 +207,46 @@ $angle: 360 / $circleCharNum;
 
   .icon_black {
     background-color: $black;
+  }
+}
+
+/**
+  * Deals
+**/
+.dealsGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 116px;
+  gap: 120px;
+}
+
+.deal {
+  display: flex;
+  flex-direction: column;
+  color: $black;
+  gap: 18px;
+
+  h3 {
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 28px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #5f5f64;
+  }
+}
+
+.dealTitle {
+  h2 {
+    font-family: "Bai Jamjuree";
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 42px;
   }
 }

@@ -1,6 +1,50 @@
 import Link from "next/link";
 import style from "../styles/Header.module.scss";
 
+function Deals() {
+  return (
+    <div className={style.dealsGroup}>
+      <div className={`${style.deal} ${style.dealTitle}`}>
+        <h2>
+          Hot <img src="/images/fire_icon.png" alt="flame" />
+          <br /> deals for you
+        </h2>
+        <p>Online shopping for retail sales direct to consumers</p>
+      </div>
+      <div className={style.deal}>
+        <img
+          src="/images/cashback_icon.png"
+          alt="cashback"
+          width={32}
+          height={35}
+        />
+        <h3>1.5% cashback</h3>
+        <p>Online shopping for retail sales direct to consumers</p>
+      </div>
+      <div className={style.deal}>
+        <img
+          src="/images/cashback_icon.png"
+          alt="cashback"
+          width={32}
+          height={35}
+        />
+        <h3>30-days terms</h3>
+        <p>Online shopping for retail sales direct to consumers</p>
+      </div>
+      <div className={style.deal}>
+        <img
+          src="/images/cashback_icon.png"
+          alt="cashback"
+          width={32}
+          height={35}
+        />
+        <h3>Save Money</h3>
+        <p>Online shopping for retail sales direct to consumers</p>
+      </div>
+    </div>
+  );
+}
+
 function Card() {
   return (
     <div className={style.card}>
@@ -139,6 +183,7 @@ function Header() {
         <Content />
         <Card />
       </div>
+      <Deals />
     </header>
   );
 }

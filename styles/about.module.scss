@@ -1,0 +1,57 @@
+@use "./colors.scss" as *;
+
+.about {
+  position: relative;
+  background: $light_blue;
+  width: 100%;
+  min-height: 417px;
+  margin-top: 94px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 300px;
+  width: 44%;
+  margin: 0 auto;
+}
+
+.card {
+  //   width: 265px;
+  min-height: 144px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  h2 {
+    font-family: "Bai Jamjuree";
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38px;
+    color: #202020;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    color: #5f5f64;
+  }
+}
+
+.circle {
+  position: absolute;
+  border: 35px solid #45b3f2;
+  border-bottom: 35px solid $light_blue;
+  border-radius: 50%;
+  transform: rotate(-45deg);
+  top: -35px;
+  right: 50%;
+  left: 50%;
+}
