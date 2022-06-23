@@ -1,0 +1,85 @@
+@use "./colors.scss" as *;
+
+.feature {
+  position: relative;
+  margin-top: 75px;
+  padding: 56px 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 113px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.imgBackground {
+  position: relative;
+  background-color: #cfedff;
+  width: 568px;
+  height: 507px;
+  img {
+    position: absolute;
+    top: 0px;
+    left: -160px;
+  }
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 30px;
+  h2 {
+    font-family: "Bai Jamjuree";
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 62px;
+    letter-spacing: -0.01em;
+    color: #192430;
+  }
+  p {
+    font-size: 16px;
+    color: #727272;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    width: 60%;
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: flex-start;
+  width: 85%;
+}
+
+.cardInfos {
+  display: flex;
+  flex-direction: column;
+  h3 {
+    font-family: "Bai Jamjuree";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 27px;
+  }
+}
+
+.cardIcon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0px 28px 60px rgba(152, 152, 152, 0.15);
+}
