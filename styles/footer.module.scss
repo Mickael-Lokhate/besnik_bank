@@ -29,12 +29,27 @@
   list-style: none;
   align-items: center;
   gap: 30px;
+
+  li {
+    display: flex;
+    align-items: center;
+    height: 19px;
+  }
   a {
     text-decoration: none;
     color: #404041;
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.01em;
+
+    &:hover {
+      cursor: pointer;
+      opacity: 0.8;
+    }
+  }
+  img:hover {
+    cursor: pointer;
+    opacity: 0.8;
   }
 }
 

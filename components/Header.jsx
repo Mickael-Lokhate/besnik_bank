@@ -98,6 +98,7 @@ function Content() {
         Banking
         <br /> more smart
       </h1>
+      <img src="/images/ellipse.png" className={style.circleImg} />
       <p>
         Meet the only spend management
         <br />

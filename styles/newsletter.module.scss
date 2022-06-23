@@ -83,5 +83,10 @@
     color: $white;
     background-color: #e15c19;
     margin-top: 42px;
+
+    &:hover {
+      opacity: 0.9;
+      cursor: pointer;
+    }
   }
 }
