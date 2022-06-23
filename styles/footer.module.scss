@@ -1,1 +1,66 @@
 @use "./colors.scss" as *;
+
+.footer {
+  margin-top: 120px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 60px auto;
+  align-items: center;
+  gap: 80px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.mainMenu,
+.menuAccount,
+.menuSocial {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+  gap: 30px;
+  a {
+    text-decoration: none;
+    color: #404041;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+  }
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 12px;
+  gap: 65px;
+  p:first-child {
+    color: #1b1b1b;
+    opacity: 0.35;
+  }
+  p:last-child {
+    color: #7b827d;
+  }
+}
+
+.hline {
+  height: 1px;
+  width: 660px;
+  background-color: #565b58;
+}
