@@ -1,8 +1,5 @@
 @use "./colors.scss" as *;
 
-$circleCharNum: 16;
-$angle: 360 / $circleCharNum;
-
 .header {
   width: 85%;
   margin: 40px auto;
@@ -136,48 +133,6 @@ $angle: 360 / $circleCharNum;
     top: -90px;
     left: -60px;
     filter: drop-shadow(80px 60px 100px rgba(0, 0, 0, 0.12));
-  }
-}
-
-.circle_text_container {
-  position: absolute;
-  bottom: 35px;
-  right: 35px;
-}
-
-.circle_text {
-  width: 96px;
-  height: 96px;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  animation: spin 15s linear infinite;
-  .arrow {
-    animation: none;
-  }
-  span {
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 15.23px;
-    height: 48px;
-    position: absolute;
-    left: 50%;
-    right: 50%;
-    top: 0;
-    transform-origin: bottom center;
-    vertical-align: middle;
-  }
-  @for $i from 1 through $circleCharNum {
-    .char#{$i} {
-      transform: rotate(($i * $angle) + deg);
-    }
-  }
-}
-
-@keyframes spin {
-  100% {
-    transform: rotate(360deg);
   }
 }
 

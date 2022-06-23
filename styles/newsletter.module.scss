@@ -1,0 +1,87 @@
+@use "./colors.scss" as *;
+
+.newsletter {
+  margin-top: 66px;
+  background-color: #41b3f4;
+}
+
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  padding-left: 8%;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  gap: 75px;
+  align-items: center;
+  p {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    color: #414449;
+  }
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 245px;
+}
+
+.vline {
+  width: 8px;
+  height: 133px;
+  background-color: #718176;
+}
+
+.illustration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 100%;
+}
+
+.visaCard {
+  width: 100%;
+  text-align: center;
+  margin-right: 100px;
+  background: url("/images/bg_newsletter.png") no-repeat;
+  background-size: cover;
+}
+
+.callToAction {
+  h2 {
+    font-family: "Bai Jamjuree";
+    color: #333333;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -0.02em;
+  }
+  button {
+    position: absolute;
+    border: none;
+    width: 160px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: 500;
+    color: $white;
+    background-color: #e15c19;
+    margin-top: 42px;
+  }
+}
